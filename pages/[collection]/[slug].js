@@ -13,8 +13,8 @@ export async function getStaticPaths() {
         // get all "pages"
         paths: [{
             params: {
-                collection: "api",
-                slug: "hello"
+                collection: "static",
+                slug: "page"
             },
         }],
         fallback: true,
